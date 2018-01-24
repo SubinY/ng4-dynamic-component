@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng lint && ng serve --port 4200",
+    "start": "ng lint && ng serve --port 4100",
     "build": "ng build",
     "build-aot": "node --max_old_space_size=2192 node_modules/@angular/cli/bin/ng build --aot --prod",
     "aot": "ng build --aot --prod",
@@ -24,9 +24,11 @@
     "@angular/platform-browser": "^4.3.5",
     "@angular/platform-browser-dynamic": "^4.3.5",
     "@angular/router": "^4.3.5",
+    "bootstrap": "^4.0.0-beta.2",
     "core-js": "^2.4.1",
     "eventproxy": "^1.0.0",
     "lodash": "^4.17.4",
+    "ng2-daterangepicker": "^2.0.12",
     "primeng": "^4.1.2",
     "rxjs": "^5.4.3",
     "zone.js": "^0.8.14"

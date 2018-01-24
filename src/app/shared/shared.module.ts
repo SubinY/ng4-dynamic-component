@@ -18,6 +18,7 @@ import { TabDirective } from "./services/ui/tabview/tab.directive";
 import { UITabViewModule } from "./services/ui/tabview/tabview";
 import { TabViewService } from "./services/tabview.service";
 import { SharedModule } from "primeng/components/common/shared";
+import { TipstoolDirective } from './component/tips-component/tipstool.directive';
 
 export { TabDirective } from "./services/ui/tabview/tab.directive";
 export { UITabViewModule } from "./services/ui/tabview/tabview";
@@ -34,10 +35,11 @@ export { SharedModule } from "primeng/components/common/shared";
         UITabViewModule,
         CommonModule,
         FormsModule,
-        SharedModule,
+        SharedModule
     ],
     declarations: [
-        TabDirective
+        TabDirective,
+        TipstoolDirective
     ],
     exports: [
         TabDirective,
@@ -45,7 +47,7 @@ export { SharedModule } from "primeng/components/common/shared";
         CommonModule,
         FormsModule,
         SharedModule,
-        TabViewModule,
+        TipstoolDirective
     ],
     providers: [
         TabViewService,
