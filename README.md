@@ -1,6 +1,6 @@
 # 鼠标移入移出动态组件展示
 
-
+![gif](https://github.com/SubinY/ng4-dynamic-component/blob/master/gitImg/gif-demo.gif)
 
 ### It's show the hold code of the dynamic component demo in this profile. You would used the type definition by the IDE to see the origin code how to structured in angular.
 
